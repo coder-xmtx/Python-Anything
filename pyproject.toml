@@ -5,6 +5,7 @@ description = "Learn Python"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "jupyterlab>=4.5.0",
     "pandas>=2.3.3",
     "pytest>=9.0.1",
 ]
