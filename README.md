@@ -17,6 +17,10 @@
 uv sync
 ```
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=coder-xmtx/Python-Anything&type=date&legend=top-left)](https://www.star-history.com/#coder-xmtx/Python-Anything&type=date&legend=top-left)
+
 ## ✍️ 写在最后
 
 > 找一颗属于你自己的星星吧，它会给你指引方向，一直到天明。 <br />
