@@ -1,3 +1,8 @@
+# 虚拟环境
 .venv
-.pytest_cache
+
+# 中间文件
 __pycache__
+
+# Pandas 数据
+Pandas/data

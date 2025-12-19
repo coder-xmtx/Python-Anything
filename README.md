@@ -6,7 +6,7 @@
 
 ## 🛠️ 更新说明（2025-12-19）
 
-学习 Pandas 库 - DataFrame 概念
+学习 Pandas 库 - 进行初步 Data Analysis
 
 ## ⚙️ 依赖安装
 
@@ -32,7 +32,13 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 uv sync
 ```
 
-## Star History
+## 数据下载
+
+由于数据集有点大，不好放在 Github 中，在这里用百度网盘分享<br />
+[data 数据集](https://pan.baidu.com/s/1viV7dAD-0YMQBUahWpifOw?pwd=xmtx) <br />
+下载后，请将该 data 文件夹放入 `Pandas` 目录中，即最后的文件位置为 `Pandas/data`
+
+## ⭐ Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=coder-xmtx/Python-Anything&type=date&legend=top-left)](https://github.com/coder-xmtx/Python-Anything)
 
