@@ -66,3 +66,9 @@ uv remove ...
 ```bash
 uv tree
 ```
+
+## 清除 uv 全局缓存
+
+```shell
+uv cache clean
+```

@@ -4,5 +4,5 @@
 # 中间文件
 __pycache__
 
-# Pandas 数据
+# Pandas 数据集
 Pandas/data
