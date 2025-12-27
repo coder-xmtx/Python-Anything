@@ -5,7 +5,7 @@ description = "Learn Python"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "jupyterlab>=4.5.0",
+    "ipykernel>=7.1.0",
     "matplotlib>=3.10.8",
     "pandas>=2.3.3",
 ]

@@ -1,4 +1,4 @@
-# <img src="src/Python.svg" /> Python-Anything
+# <img src="assets/Python.svg" /> Python-Anything
 
 学习 Python ，巩固知识，探索新知
 
@@ -6,31 +6,36 @@
 | :-------------: | :------------------: | :---------: |
 |     **uv**      | **Jupyter Notebook** | **VS Code** |
 
-## 🛠️ 更新说明（2025-12-20）
+## 🛠️ 更新说明（2025-12-27）
 
-学习 Pandas 库 - 进行初步 Data Analysis - 缺失值处理
+修改部分文档
+
+## <img src="assets/vscode.svg" /> VS code 配置
+
+1. 在插件市场安装 jupyter
+2. 如需运行 Jupyter Notebook 的代码块，请先在打开的 `.ipynb` 文件的右上角指定 Python 内核
 
 ## ⚙️ 依赖安装
 
 1. 安装 [uv](https://docs.astral.sh/uv/) （若已经安装，可跳过该步骤）
 
-- Windows 环境
+   - Windows 环境
 
-```bash
-powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
-```
+   ```bash
+   powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+   ```
 
-- MacOS 或 Linux 环境
+   - MacOS 或 Linux 环境
 
-```bash
-curl -LsSf https://astral.sh/uv/install.sh | sh
-```
+   ```bash
+   curl -LsSf https://astral.sh/uv/install.sh | sh
+   ```
 
-1. 解析项目包
+2. 解析项目包
 
-```bash
-uv sync
-```
+   ```bash
+   uv sync
+   ```
 
 ## ⏬ 数据下载
 
