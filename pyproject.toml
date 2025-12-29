@@ -5,9 +5,11 @@ description = "Learn Python"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "bs4>=0.0.2",
     "ipykernel>=7.1.0",
     "matplotlib>=3.10.8",
     "pandas>=2.3.3",
+    "requests>=2.32.5",
 ]
 
 [[tool.uv.index]]

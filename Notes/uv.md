@@ -1,15 +1,23 @@
 # 使用 uv 来管理 python 环境
 
-uv 是新一代 python 包管理工具，旨在替代 pip 或者 conda 这种传统工具，
+uv 是新一代 Python 包管理工具，旨在替代 pip 或者 conda 这种传统工具，
 在终端中使用`uv python list`可以查看本地已经安装的 python 版本
 
-## windows 安装 uv
+# 安装 [uv](https://docs.astral.sh/uv/)
+
+- Windows 系统
 
 ```bash
 powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 ```
 
-## 配置镜像
+- MacOS 或 Linux 环境
+
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
+# 配置镜像
 
 在系统环境变量新增`UV_DEFAULT_INDEX`，将值设置为清华源或者阿里源
 
@@ -27,9 +35,7 @@ Remove-Item "$env:USERPROFILE\.local\bin\uv.exe" -Force
 Remove-Item "$env:USERPROFILE\.local\bin\uvx.exe" -Force
 ```
 
----
-
-# 使用 uv
+# 使用 uv 创建 python 虚拟环境
 
 ## 1. 创建 uv 环境
 
