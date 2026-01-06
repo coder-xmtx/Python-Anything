@@ -6,11 +6,13 @@
 | :-------------: | :------------------: | :---------: |
 |     **uv**      | **Jupyter Notebook** | **VS Code** |
 
-## 🛠️ 更新说明（2025-12-27）
+## 🛠️ 更新说明（2025-01-06）
 
-修改部分文档
+修改部分文档，后续会继续处理
 
 ## <img src="assets/vscode.svg" /> VS code 配置
+
+如果你喜欢用 VS Code 来写 Jupyter，请和我一样配置
 
 1. 在插件市场安装 jupyter
 2. 如需运行 Jupyter Notebook 的代码块，请先在打开的 `.ipynb` 文件的右上角指定 Python 内核
